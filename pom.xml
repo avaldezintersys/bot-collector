@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>bot-simulator</module>
+        <module>avro-toolkit</module>
     </modules>
 
 
