@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="POC-Collector" />
         <module name="bot-simulator" />
+        <module name="POC-Collector" />
+        <module name="avro-toolkit" />
       </profile>
     </annotationProcessing>
   </component>
