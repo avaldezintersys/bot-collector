@@ -8,14 +8,11 @@ import java.io.FileNotFoundException;
 
 public class App {
 
-    public static void main(String[] args){
-        try {
-            BasicConfigurator.configure();
-            String schema = AvroUtils.SchemaCreation();
-            AvroUtils.saveSchema(schema);
-        } catch (JsonMappingException | FileNotFoundException e) {
-            e.printStackTrace();
-        }
+    public static void main(String[] args)
+            throws JsonMappingException, FileNotFoundException {
+          BasicConfigurator.configure();
+          String schema = AvroUtils.SchemaCreation();
+          AvroUtils.saveSchema(schema);
     }
 
 }

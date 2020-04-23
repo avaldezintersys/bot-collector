@@ -23,12 +23,13 @@ public class AvroUtils {
         return schema.getAvroSchema().toString();
     }
 
-    public static void saveSchema(final String schema) throws FileNotFoundException {
+    public static String saveSchema(final String schema) throws FileNotFoundException {
         String file = "./botstate.avsc";
         logger.info("Saving schema : "+ file);
         OutputStream os = new FileOutputStream(file);
         final PrintStream printStream = new PrintStream(os);
         printStream.println(schema);
         printStream.close();
+        return file;
     }
 }
