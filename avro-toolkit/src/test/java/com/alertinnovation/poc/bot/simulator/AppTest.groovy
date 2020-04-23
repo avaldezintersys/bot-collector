@@ -1,6 +1,6 @@
 package com.alertinnovation.poc.bot.simulator
 
-import com.alertinnovation.poc.bot.simulator.source.BotState
+
 import com.alertinnovation.poc.bot.simulator.utils.AvroUtils
 import org.apache.log4j.BasicConfigurator
 import spock.lang.Specification
